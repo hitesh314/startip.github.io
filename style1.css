@@ -1,0 +1,52 @@
+html,body{
+    width: 100%;
+    height: 100%;
+	background: url(Resources//header.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+h1{
+	color:  white;
+	margin: 0 auto;
+}
+hr {
+    margin: 20px auto;
+    color: #F05F44;
+    border: 3px solid #F05F44;
+    max-width: 65px;
+    opacity: 1;  
+}
+.btn{
+    font-weight: 700;
+    background-color: orangered;
+    border-color: orangered;
+    width: 150px;
+    height: 60px;
+    border-radius: 100px 100px;
+}
+.btn-primary: hover{
+    cursor:pointer ;
+}
+h1{
+    text-transform: uppercase;
+    font-style: italic;
+    font-size: 2.1rem;
+}
+hr{
+    border-color: #F05F44;
+    border-width: 1px;
+    height: 1px;
+    max-width: 60%;
+}
+.contanier{
+    height: 100%;
+}
+.buffer{
+    height: 5rem;
+}
+.btn:hover{
+    height: 70px;
+    width: 180px;
+}
